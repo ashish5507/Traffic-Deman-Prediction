@@ -12,7 +12,7 @@ Predicting normalized traffic demand for road segments at 15-minute intervals us
 ├── train.csv          # Training data (77,299 rows)
 ├── test.csv           # Test data (41,778 rows)
 ├── submission.csv     # Final predictions (generated after running the notebook)
-└── traffic_pipeline.ipynb
+└── trafficDemandPrediction.ipynb
 ```
 
 ---
