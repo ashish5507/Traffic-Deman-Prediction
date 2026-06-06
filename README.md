@@ -9,9 +9,11 @@ Predicting normalized traffic demand for road segments at 15-minute intervals us
 ## Project Structure
 
 ```
-├── train.csv          # Training data (77,299 rows)
-├── test.csv           # Test data (41,778 rows)
-├── submission.csv     # Final predictions (generated after running the notebook)
+├── dataset/
+│   ├── train.csv                    # Training data (77,299 rows)
+│   └── test.csv                     # Test data (41,778 rows)
+├── submission.csv                   # Final predictions (generated after running the notebook)
+├── sample_submission.csv            # Sample submission format
 └── trafficDemandPrediction.ipynb
 ```
 
